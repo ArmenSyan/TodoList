@@ -1,8 +1,15 @@
 import React from 'react'
+import TodoTop from './Todo/TodoTop'
+import TodoBody from './Todo/TodoBody'
+import TodoBottom from './Todo/TodoBottom'
 
 function Todo() {
   return (
-    <div>Todo</div>
+    <div>
+        <TodoTop />
+        <TodoBody />
+        <TodoBottom />
+    </div>
   )
 }
 
